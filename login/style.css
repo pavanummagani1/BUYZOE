@@ -14,8 +14,7 @@ body{
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.loginForm{
-    background-color:rgba(255, 255, 255, 0.2); 
+.loginForm{ 
     border-radius: 10px;
     padding: 20px;
     display: flex;
@@ -64,7 +63,6 @@ body{
 
 @media screen and (max-width:650px) {
     .loginForm{
-        background-color: #fff;
         border-radius: 10px;
         padding: 20px;
         display: flex;
@@ -75,32 +73,32 @@ body{
         font-size: 1.3em;
         font-weight: bold;
     }
-    #form{
+    #loginForm{
         width: 50vw;
         display: flex;
         flex-direction: column;
         gap: 10px;
         font-weight: 600;
     }
-    #form>span{
+    #loginForm>span{
         align-self: center;
     }
-    #form>input{
+    #loginForm>input{
         padding: 1em;
         border: 2px solid #000;
         border-radius: 10px;
     }
-    #form>button{
+    #loginForm>button{
         padding: 10px;
         width: 50%;
         align-self: center;
-        border: 2px solid #1e3c72;
+        border: 2px solid  #fcbb68;
         color: #fff;
-        background-color:#1e3c72;
+        background-color: #fcbb68;
         border-radius: 10px;
     }
-    #form>span>a{
-        color: #1e3c72;
+    #loginForm>span>a{
+        color:  #fcbb68;
         text-decoration: none;
     }
     
@@ -108,7 +106,6 @@ body{
 
 @media screen and (min-width:651px) and (max-width:1000px) {
     .loginForm{
-        background-color: #fff;
         border-radius: 10px;
         padding: 20px;
         display: flex;
@@ -119,32 +116,32 @@ body{
         font-size: 1.3em;
         font-weight: bold;
     }
-    #form{
+    #loginForm{
         width: 70vw;
         display: flex;
         flex-direction: column;
         gap: 10px;
         font-weight: 600;
     }
-    #form>span{
+    #loginForm>span{
         align-self: center;
     }
-    .form>input{
+    #loginForm>input{
         padding: 1em;
         border: 2px solid #000;
         border-radius: 10px;
     }
-    #form>button{
+    #loginForm>button{
         padding: 10px;
         width: 50%;
         align-self: center;
-        border: 2px solid #1e3c72;
+        border: 2px solid  #fcbb68;
         color: #fff;
-        background-color:#1e3c72;
+        background-color: #fcbb68;
         border-radius: 10px;
     }
-    #form>span>a{
-        color: #1e3c72;
+    #loginForm>span>a{
+        color:  #fcbb68;
         text-decoration: none;
     }
     

@@ -15,7 +15,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .signupForm{
-    background-color: #fff;
+    background-color: transparent;
+    border-color: #fcbb68;
     border-radius: 10px;
     padding: 20px;
     display: flex;
@@ -25,6 +26,7 @@ body{
 .formTitle{
     font-size: 1.3em;
     font-weight: bold;
+    color: #fff;
 }
 .form{
     width: 40vw;
@@ -35,6 +37,10 @@ body{
 }
 .form>span{
     align-self: center;
+    color: #fff;
+}
+.form>label{
+    color: #fff;
 }
 .form>input{
     padding: 1em;
@@ -45,15 +51,12 @@ body{
     padding: 10px;
     width: 50%;
     align-self: center;
-    border: 2px solid #1e3c72;
+    border: 2px solid  #fcbb68;
     color: #fff;
-    background-color:#1e3c72;
+    background-color: #fcbb68;
     border-radius: 10px;
 }
 .form>span>a{
-    color: #1e3c72;
+    color:  #fcbb68;
     text-decoration: none;
-}
-#firstNameErrMsg, #lastNameErrMsg, #emailErrMsg, #passwordErrMsg{
-    color: red;
 }
